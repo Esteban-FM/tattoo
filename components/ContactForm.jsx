@@ -18,13 +18,14 @@ export default function ContactForm() {
     console.log("Email: ", email);
     console.log("Message: ", message);
  
-    const res = await fetch("api/contact", {
+    const res = await fetch("../pages/api/contact/route.js", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
       },
       body: JSON.stringify({
         fullname,
+        phonenumber,
         email,
         message,
       }),
