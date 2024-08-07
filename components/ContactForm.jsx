@@ -55,7 +55,7 @@ export default function ContactForm() {
         <input className="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
             onChange={(e) => setPhone(e.target.value)}
             value={phonenumber}
-            type="text"
+            type="number"
             id="phone"
             placeholder="614-555-5555"
         />
@@ -76,15 +76,9 @@ export default function ContactForm() {
         </textarea>
         <button type="submit" className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Send</button>
       </form>
- 
-      <div className="bg-slate-100 flex flex-col">
-        {error &&
-          error.map((e) => (
-            <div
-              className={`${
-                success ? "text-green-800" : "text-red-600"
-              } px-5 py-2`}
-            >
+
+      <div className="bg-slate-100 flex flex-col"> {error && error.map((e) => (
+            <div className={`${success ? "text-green-800" : "text-red-600"} px-5 py-2`}>
               {e}
             </div>
           ))}
