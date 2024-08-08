@@ -19,12 +19,17 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: #23272A;
+
+  /* font-family: "Degular"; */
+  
   /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+
+    
 }
 
 @layer utilities {
@@ -32,3 +37,5 @@ body {
     text-wrap: balance;
   }
 }
+
+

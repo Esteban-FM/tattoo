@@ -14,27 +14,15 @@ export default function Home() {
     <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
         Home
 
-        {/* <section className="py-24">
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-                <div className="grid lg:grid-cols-2 grid-cols-1">
-                    <div className="lg:mb-0 mb-10">
-                        <div className="group w-full h-full">
-                            <div className="relative h-full">
-                                <img src="https://images.unsplash.com/photo-1722863909009-bfdbc9eb3fb8?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></img>
-                                <h1 className=" font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11"></h1>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="bg-gray-50  p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
-                        <h2 className="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11"> Send Us A Message From</h2>
-                    </div>
+    
+  
 
-                </div>
-            </div>
-        </section> */}
 
-<div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+
+
+<div className="mx-auto max-w-7xl px-0 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 grid-cols-1">
 {/* 
           <div className="lg:mb-0 mb-10">
@@ -84,23 +72,55 @@ export default function Home() {
 
       {/* stiker */}
 
-
-
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative mt-20">
+    <div className="mx-auto max-w-7xl px-0 sm:px-6 lg:px-8 relative mt-20">
         <div className="grid lg:grid-cols-12 grid-cols-1">
-          <div className="col-start-2 col-span-10 bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl shadow-lg z-10 ">
+          <div className="  col-start-2 col-span-1  sm:col-start-2 sm:col-span-10 bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl shadow-lg z-10 ">
             <h2 className="text-indigo-500 font-manrope text-4xl font-semibold leading-10 mb-11">Send Us A Message</h2>
             <ContactForm/>
 
 
-            <img src="https://i2.wp.com/www.pngplay.com/wp-content/uploads/12/Colorful-No-Background.png" alt="Imagen" className="absolute top-0 right-0 w-auto h-32 z-20"> 
-
-
-
-    </img>
+            <img src="https://i2.wp.com/www.pngplay.com/wp-content/uploads/12/Colorful-No-Background.png" alt="Imagen" className="absolute top-0 right-0 w-auto h-32 z-20"></img>
+            <img src="https://i2.wp.com/www.pngplay.com/wp-content/uploads/12/Colorful-No-Background.png" alt="Imagen" className="absolute bottom-0 left-0 w-auto h-32 z-30"></img>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+{/* footer */}
+
+      <footer className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  gap-4 mt-10">
+{/* linea */}
+      <hr className="my-4 border-t-2 border-white" />
+
+      <div className="grid lg:grid-cols-12 grid-cols-1 grid-rows-3 sm:grid-rows-1 text-center ">
+          
+            <div className=" col-start-1 col-span-2 row-start-1 row-span-1 px-2 font-bold">
+            <p>&copy; Agosto 2024</p>
+            </div>
+
+            <div className="sm:col-start-5 sm:col-span-5 row-span-1 row-start-2 sm:row-start-1 px-2  ">
+            <p id="address">Curso FullStack Modulo 3 </p>
+            </div>
+
+            <div className=" col-start-1 col-span-2  sm:col-start-12  mt-2 sm:mt-0   row-span-1 row-start-3 sm:row-start-1 px-2">
+            <p><a href="https://github.com/Esteban-FM">Github</a></p>
+            </div>
+
+        </div>
+      </footer>
+
+
 
 
 
