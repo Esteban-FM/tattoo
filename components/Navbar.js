@@ -4,12 +4,12 @@ export default function Navbar() {
     return(
 
 
-    <div className="relative bg-white dark:bg-black flex justify-center items-center ">
+    <div className="relative text-white bg-zinc-800 dark:bg-zinc-900 flex justify-center items-center mb-3">
 
     <div class="navbar bg-base-100 grid grid-cols-12 mt-2 sas">
     <div class="flex-1 cols-span-1 col-start-2">
 
-        <a class="btn btn-ghost text-xl ">Kuhl.tattos</a>
+        <a class="btn btn-ghosttext-xl font-bold ">K.Tattos</a>
     </div>
 
 

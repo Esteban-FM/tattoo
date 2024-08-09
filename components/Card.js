@@ -5,7 +5,7 @@ export default function Card() {
     return(
 
 
-      <div className="relative  text-white bg-zinc-800 dark:bg-black flex justify-center items-center ">
+      <div className="relative  text-white bg-zinc-800 dark:bg-black flex justify-center items-center mt-8 sm:mt-0 ">
 
       <div class="bg-base-100 grid grid-rows-5 sm:grid-rows-2  grid-cols-1   sm:grid-cols-11 mt-2">
 
