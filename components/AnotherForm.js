@@ -90,17 +90,11 @@ export default function AnotherForm() {
     };
     return(
 <div className="relative bg-zinc-50 dark:bg-black flex justify-center items-center ">
-                    {/* <div className="lg:absolute lg:inset-0 lg:left-1">
-                         <img
-                            className="h-64 w-full bg-gray-50 object-cover sm:h-80 lg:absolute lg:h-full"
-                            src="/next.svg"
-                            alt="cowork"
-                        /> 
-                    </div> */}
+
                     <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-5 lg:pt-32 ">
                         <div className="px-6 lg:px-8 col-start-2 col-span-3 ">
                             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-                                <h2 className="text-center text-5xl font-bold tracking-tight text-indigo-500 dark:text-white leading-10 mb-5">
+                                <h2 className="text-center text-5xl font-bold tracking-tight text-zinc-800 dark:text-white leading-10 mb-5">
                                     Contactanos 
                                 </h2>
                                 <p className="mt-2 text-lg leading-8 text-gray-600 dark:text-white">
@@ -236,7 +230,7 @@ export default function AnotherForm() {
                                     <div className="mt-10">
                                         <button
                                             type="submit"
-                                            className="block w-full rounded-md bg-zinc-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-zinc-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-400"
+                                            className="block w-full rounded-md bg-zinc-800 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-zinc-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-400"
                                         >
                                             {success ? 'Enviado' : 'Enviar'}
                                         </button>
