@@ -1,5 +1,5 @@
 import AnotherForm from "@/components/AnotherForm";
-
+import Footer from "@/components/Footer";
 
 export default function Contactanos() {
     
@@ -8,7 +8,11 @@ export default function Contactanos() {
         <>
             <div>
                 <main>
+
                     <AnotherForm />
+
+                    <Footer />
+
                 </main>
             </div>
         </>
