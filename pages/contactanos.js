@@ -10,6 +10,7 @@ export default function Contactanos() {
         <>
             <div>
                 <main>
+                    
                     <Navbar/>
                     <AnotherForm />
                     <Card/>
