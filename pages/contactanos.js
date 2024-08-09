@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Card from "@/components/Card";
 import Video from "@/components/Video";
 import Proceso from "@/components/Proceso";
+import Chulo from "@/components/Chulo";
 
 export default function Contactanos() {
     
@@ -15,6 +16,7 @@ export default function Contactanos() {
 
                     <Navbar/>
                     <Proceso/>
+                    <Chulo/>
                     <AnotherForm />
                     <Video/>
                     <Card/>
