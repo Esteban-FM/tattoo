@@ -1,5 +1,5 @@
 
-export default function Chulo() {
+export default function Promos() {
  
     return(
         <>
@@ -9,7 +9,7 @@ export default function Chulo() {
         <section className=" text-white flex-1 flex-wrap grid grid-cols-6 items-center gap-4 flex justify-center text-center">
 
             <div className=" col-span-2 col-start-3">
-                <a className="font-bold text-2xl hover:text-zinc-400" href="">👍 Tal vez un tatuaje te haga ver mas chulo 👍</a>
+                <a className="font-bold text-2xl hover:text-zinc-400" href="">🤙 Todo cuidadosamente preparado 🤙</a>
             </div>
 
         </section>    

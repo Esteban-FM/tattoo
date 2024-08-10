@@ -6,6 +6,7 @@ import Video from "@/components/Video";
 import Proceso from "@/components/Proceso";
 import Chulo from "@/components/Chulo";
 import TItulo from "@/components/Titulo";
+import Promos from "@/components/Promos";
 
 export default function Contactanos() {
     
@@ -20,6 +21,7 @@ export default function Contactanos() {
                     <Proceso/>
                     <Chulo/>
                     <AnotherForm />
+                    <Promos/>
                     <Video/>
                     <Card/>
                     <Footer />
